@@ -1,0 +1,55 @@
+.formaciones{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background: rgb(241,241,241);
+background: linear-gradient(0deg, rgba(241,241,241,1) 33%, rgba(255,255,255,1) 100%);
+}
+
+.formaciones h2{
+	font-size: 1.5rem;
+	font-weight: 600;
+	justify-content: center;
+	text-align: center;
+	padding: .5rem 0;
+	padding-top: 5rem;
+}
+
+.formaciones-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+
+.formaciones-one{
+	display: block;
+	justify-content: center;
+	flex-direction: column;
+	margin: 10px;
+	padding: 25px;
+	text-align: center;
+	font-weight: bolder;
+	width: 200px;
+	border-radius: 10%;
+}
+
+.formaciones-one img{
+	width: 200px;
+	padding: 2rem 0;
+}
+
+.formaciones-nombre{
+	padding-bottom: 10px;
+}
+
+.formaciones-nombre-fecha{
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.alura{
+	background: #fff;
+	box-shadow: 2px 2px 3px 0px rgba(61,61,61,0.51);
+	margin-bottom: 80px;
+}

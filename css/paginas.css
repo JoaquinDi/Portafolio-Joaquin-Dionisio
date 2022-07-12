@@ -1,0 +1,88 @@
+.paginas{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-bottom: 100px;
+	justify-content: center;
+	background: rgb(214,255,213);
+background: linear-gradient(0deg, #d5f3ff 33%, rgba(241,241,241,1) 100%);
+}
+
+.paginas-titulo{
+	font-size: 1.5rem;
+	font-weight: 600;
+	justify-content: center;
+	text-align: center;
+	padding: .5rem 0;
+	padding-top: 5rem;
+}
+
+.paginas img{
+	width: 200px;
+	margin: 3rem;
+	box-shadow: 2px 2px 3px 0px rgba(61,61,61,0.51);
+}
+
+.pagina-encriptador{
+	display: flex;
+
+}
+
+.paginas-contenedor{
+	display: flex;
+	align-items: center;
+}
+
+.pagina-titulo{
+	padding-bottom: .5rem;
+	font-weight: 600;
+}
+
+.info-pagina{
+	padding-bottom: 3rem;
+}
+
+.boton-pagina{
+	font-weight: bolder;
+	margin-left: 1rem;
+	border-bottom: solid #000 2px ;
+}
+
+.boton-pagina:hover{
+	border-bottom: solid #A7A7A7 2px ;
+}
+
+
+.boton-repositorio{
+	margin-left: 1rem;
+	border-bottom: solid #fff 2px ;
+}
+
+.boton-repositorio:hover{
+	border-bottom: solid #A7A7A7 2px ;
+}
+
+
+.paginas-contenedor-ahorcado{
+	display: flex;
+	align-items: center;
+}
+
+
+@media (max-width: 700px){
+	.paginas-contenedor{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.paginas-contenedor-ahorcado{
+		display: flex;
+		flex-direction: column;
+		padding-top: 5rem;
+	}
+
+	.info-li-paginas{
+		text-align: center;
+	}
+
+}

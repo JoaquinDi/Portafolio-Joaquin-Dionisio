@@ -1,0 +1,12 @@
+.footer{
+	text-align: center;
+	padding: 1.5rem;
+	color: #d5f3ff;
+	font-weight: bolder;
+	background: rgb(46,46,46);
+background: linear-gradient(0deg, rgba(46,46,46,1) 0%, rgba(68,67,67,1) 100%);
+}
+
+.footer h2{
+	padding-bottom: 1rem;
+}

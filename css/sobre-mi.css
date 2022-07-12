@@ -1,0 +1,49 @@
+.sobre-mi{
+	display: flex;
+	padding: 5%;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 16%, rgba(175,255,242,1) 100%);
+}
+
+.sobre-mi__info-titulo{
+	padding: 1.8rem 0;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.sobre-mi-foto{
+	background: url("../img/imagen.jpg");
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.redes{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}
+
+.redes-sociales:hover{
+	font-weight: bolder;
+}
+
+.redes-sociales{
+	padding-right: .5rem;
+}
+
+.flecha{
+	height: 10px;
+	padding-right: 7px;
+}
+
+@media (max-width: 950px){
+	.sobre-mi{
+		flex-direction: column-reverse;
+	}
+}

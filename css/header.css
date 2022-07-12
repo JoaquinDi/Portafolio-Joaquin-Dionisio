@@ -1,0 +1,39 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding:1rem 1rem;
+	background: #1E3E44;
+	align-items: center;
+	border-bottom: solid 3px #76D7C4;
+	color: #fdfdfd;
+}
+
+.header h1{
+	font-weight: bolder;
+	font-size: 1.2rem;
+}
+
+.navegacion__nav{
+	margin-right: 10px;
+}
+
+.navegacion button{
+	display: none;
+}
+
+.navegacion__nav:hover{
+	border-bottom: solid #76D7C4 2px;
+}
+
+@media (max-width: 700px){
+	.header{
+		justify-content: center;
+		padding: .3rem;
+	}
+	.navegacion{
+		display: none;
+	}
+
+}
+
+/*#96FF2D*/
