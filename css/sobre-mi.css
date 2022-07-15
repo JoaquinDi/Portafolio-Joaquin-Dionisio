@@ -17,10 +17,11 @@
 	background: url("../img/mi-foto.jpg");
 	width: 150px;
 	height: 150px;
-	border-radius: 100px;
+	border-radius: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-left: 3rem;
 }
 
 .redes{
@@ -45,5 +46,15 @@
 @media (max-width: 950px){
 	.sobre-mi{
 		flex-direction: column-reverse;
+	}
+
+	.sobre-mi-foto{
+		padding-left: 0;
+	}
+}
+
+@media (min-width: 1500px){
+	.sobre-mi-foto{
+		padding-left: 0;
 	}
 }

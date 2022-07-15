@@ -58,6 +58,8 @@ background: #d5f3ff;
 }
 
 .boton-enviar{
+	border: none;
+	background: none;
 	font-weight: bolder;
 	margin: 1rem;
 	border-bottom: solid #000 2px ;
@@ -66,6 +68,8 @@ background: #d5f3ff;
 .boton-enviar:hover{
 	border-bottom: solid #00C9FF 2px ;
 }
+
+
 
 @media (max-width: 700px){
 

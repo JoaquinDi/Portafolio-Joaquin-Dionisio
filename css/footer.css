@@ -7,6 +7,11 @@
 background: linear-gradient(0deg, rgba(46,46,46,1) 0%, rgba(68,67,67,1) 100%);
 }
 
+.correo{
+	padding-bottom: 1rem;
+	color: #fff;
+}
+
 .footer h2{
 	padding-bottom: 1rem;
 }

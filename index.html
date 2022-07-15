@@ -25,20 +25,20 @@
 			<h1>Joaquin Dionisio</h1>
 		</div>
 		<nav class="navegacion">
-			<a class="navegacion__nav" href="">sobre mi</a>
-			<a class="navegacion__nav" href="">skills</a>
-			<a class="navegacion__nav" href="">hobbies</a>
-			<a class="navegacion__nav" href="">formacion</a>
-			<a class="navegacion__nav" href="">proyectos</a>
-			<a class="navegacion__nav" href="">contacto</a>
+			<a class="navegacion__nav" href="#sobre-mi">sobre mi</a>
+			<a class="navegacion__nav" href="#skills">skills</a>
+			<a class="navegacion__nav" href="#hobbies">hobbies</a>
+			<a class="navegacion__nav" href="#formaciones">formacion</a>
+			<a class="navegacion__nav" href="#paginas-titulo">proyectos</a>
+			<a class="navegacion__nav" href="#titulos-form">contacto</a>
 			<button><img src="" alt=""></button>
 		</nav>
 	</header>
 	<main class="main">
-		<section class="sobre-mi">
+		<section class="sobre-mi" id="sobre-mi">
 			<div class="sobre-mi__info">
 				<h2 class="sobre-mi__info-titulo">Hola, mi nombre es Joaquin Dionisio</h2>
-				<p>Actualmente me estoy capacitando en el proyecto Oracle ONE en Alura Latam. Me inicie a principios de 2022 de forma autodidacta.<br>Me gusta trabajar en equipo </p>
+				<p>Tengo 21 años y soy de la provincia de Misiones Argentina. Actualmente me estoy capacitando en el proyecto Oracle ONE en Alura Latam. Me inicie a principios de 2022 de forma autodidacta.<br>Me coinsidero una persona creativa, me gusta diseñar, aprender y trabajar en equipo.</p>
 				<nav class="redes">
 					<a href="https://www.linkedin.com/in/joaquin-dionisio-ba1a39234/" class="redes-sociales"><img class="flecha" src="img/flecha.svg" alt="link_">LinkedIn</a>
 					<a href="https://www.instagram.com/rulydionisio/?hl=es" class="redes-sociales"><img class="flecha" src="img/flecha.svg" alt="link_">Instagram</a>
@@ -48,7 +48,7 @@
 			</div>
 				<div class="sobre-mi-foto"></div>
 		</section>
-			<div class="skills">
+			<div class="skills" id="skills">
 				<h2>Skills</h2>
 
 				<ul class="skills__lenguajes">
@@ -64,10 +64,18 @@
 						<img src="img/js.svg" class="img-skils">
 						<p>JavaScript</p>
 					</li>
+					<li class="caja git">
+						<img src="img/git.svg" class="img-skils">
+						<p>Git</p>
+					</li>
+					<li class="caja figma">
+						<img src="img/figma.svg" class="img-skils">
+						<p>Figma</p>
+					</li>
 				</ul>
 
 			</div>
-			<div class="hobbies">
+			<div class="hobbies" id="hobbies">
 				<h2>Hobbies</h2>
 
 				<ul class="hobbies__container">
@@ -85,7 +93,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="formaciones">
+			<div class="formaciones" id="formaciones">
 				<h2>Formaciones</h2>
 				<ul class="formaciones-container">
 					<li class="formaciones-one alura">
@@ -96,7 +104,7 @@
 				</ul>
 			</div>
 			<div class="paginas">
-				<h2 class="paginas-titulo">Paginas elaboradas</h2>
+				<h2 class="paginas-titulo" id="paginas-titulo">Proyectos</h2>
 				<div class="paginas__contenido">
 					<ul class="paginas-contenedor">
 						<li class="pagina-encriptador">	
@@ -123,23 +131,25 @@
 					</ul>
 				</div>
 			</div>
-			<div class="titulos-form">
+			<div class="titulos-form" id="titulos-form">
 				<h2>¿Quiere contactarme?</h2>
 				<p>Complete el siguiente formulario y me pondré en contacto lo antes posible con usted.</p>
 			</div>
-				<form class="contacto-form">
-					
-						<input class="form-input" type="name" placeholder="Nombre" name="">
-						<input class="form-input" type="" placeholder="E-mail" name="">
-						<input class="form-input" type="" placeholder="Asunto" name="">
-			
-					<textarea class="form-mensaje" placeholder="Mensaje"></textarea>
-					<a class="boton-enviar" href="">Enviar</a>
+				<form class="contacto-form"  action="https://formspree.io/f/mqknrzad" method="POST">
+						<label for="email"></label>
+						<input class="form-input" type="email" required placeholder="E-mail" name="email" id="email">	
+						<label for="nombre"></label>	
+						<input class="form-input" type="text" required placeholder="Nombre" name="nombre" id="nombre">
+						
+					<label for="mensaje"></label>
+					<textarea class="form-mensaje" name="message" placeholder="Mensaje" id="Mensaje"></textarea>
+					<button class="boton-enviar" type="submit">Enviar</button>
 				</form>
 
 	</main>
 	<footer class="footer">
 		<h2>Desarrollado por Joaquin Dionisio</h2>
+		<p class="correo">joaquin.dionisio000@gmail.com</p>
 		<p>2022</p>
 	</footer>
 </body>
