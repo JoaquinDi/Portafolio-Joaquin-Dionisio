@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -13,6 +17,9 @@
 	font-size: 1.2rem;
 }
 
+.navegacion__nav:root{
+	scroll-behavior: smooth;
+}
 .navegacion__nav{
 	margin-right: 10px;
 }
@@ -24,6 +31,8 @@
 .navegacion__nav:hover{
 	border-bottom: solid #76D7C4 2px;
 }
+
+
 
 @media (max-width: 700px){
 	.header{
